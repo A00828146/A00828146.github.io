@@ -4,13 +4,13 @@ function calculate() {
     var op = document.getElementById("operador").value;
     var result;
 
-    if (op == "suma") {
+    if (op == "Suma") {
       result = n1 + n2;
-    } else if (op == "resta") {
+    } else if (op == "Resta") {
       result = n1 - n2;
-    } else if (op == "multi") {
+    } else if (op == "Multiplicación") {
       result = n1 * n2;
-    } else if (op == "divi") {
+    } else if (op == "División") {
       result = n1 / n2;
     }
 

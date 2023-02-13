@@ -15,5 +15,20 @@
         <li><a href="calculadora_cientifica.html">Calculadora Cientifica</a></li>
       </ul>
     <h1>Calculadora Simple</h1>
+    Valor 1: <input type="text", id="n1">
+    Valor 2: <input type="text", id="n2">
+    <h2>Selecciona tipo de operacion</h2>
+    <form>
+        Select numbers:<br>
+        <select id="operador">
+          <option>Suma</option>
+          <option>Resta</option>
+          <option>Multiplicación</option>
+          <option>División</option>
+        </select>
+      </form>
+    
+    <button type="button" onclick="calculate()">Calcular!</button>
+    <h1 id="resultado"></h1>
 </body>
 </html>
